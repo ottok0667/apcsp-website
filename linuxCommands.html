@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Linux Commands</title>
+
+<style>
+  <!-- #grad {background: linear-gradient(red, yellow);} -->
+  body {background-color: teal;}
+  h1 {text-shadow: 3px 2px MediumSeaGreen;}
+  p {color: black;}
+</style>
+
+</head>
+
+
+<body>
+
+<h1>Linux Commands</h1>
+
+<li><b>ls: lists directory contents</b></li>
+<p>$cd scripts      -- opens the scripts folder</p>
+<p>$ls              -- lists the contents of the scripts folder</p>
+
+<li><b>cd: change directory</b></li>
+<p>if currently located in scripts folder</p>
+<p>$cd              -- returns user to the home directory</p>
+
+<li><b>pwd: print working directory</b></li>
+<p>$cd scripts      -- moves user from the home directory to the scripts directory</p>
+<p>$pwd</p>
+<p>/home/kelsi/scripts</p>
+
+<li><b>mkdir: make new directory</b></li>
+<p>$mkdir website</p>
+<p>*creates a directory by the name of "website" in the current directory*</p>
+
+<li><b>cp: copy files/directories</b></li>
+<p>$cp /var/www/html/kelsi/index.html .</p>
+<p>*moves a copy of the file "index.html" to the current directory from the specified directory*</p>
+
+<li><b>mv: move files/directories</b></li>
+<p>$mv /var/www/html/kelsi/index.html .</p>
+<p>*moves file "index.html" to the current directory from the specified directory*</p>
+
+<li><b>rm: remove files/directories</b></li>
+<p>$rm /var/www/html/kelsi/index.html</p>
+<p>*removes file "index.html" from the specified directory*</p>
+
+<li><b>nano: creates a file of the specified name or opens the file of that name from the current directory</b></li>
+<p>$nano index.html</p>
+<p>*opens the file "index.html" if it exists in the current directory; otherwise, a file by the name "index.html" is created and opened*</p>
+
+<li><b>echo: prints the string provided</b></li>
+<p>$echo hello world</p>
+<p>hello world</p>
+
+<li><b>hostname: prints the name of the raspberry pi that you are connected to</b></li>
+<p>$hostname</p>
+<p>rpi06</p>
+
+<li><b>man: provides the manual of the specified command</b></li>
+<p>$man ls</p>
+<p>*prints user commands of the ls function*</p>
+
+<li><b>history: prints the history of all commands ever typed on that machine</b></li>
+<p>$history</p>
+<p>1     ls</p>
+<p>2     cd</p>
+<p>3     cd ..</p>
+<p> ...</p>
+
+<li><b>date: provides the current date and time</b></li>
+<p>$date</p>
+<p>Tue 15 May 19:00:35 UTC 2018</p>
+
+
+
+ </body>
+
+</html>
