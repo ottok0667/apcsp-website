@@ -1,0 +1,15 @@
+The following is a summary of the latest hangman game played on the terminal
+
+Input Phrase: Hi, how are you?
+
+__, ___ ___ ___?
+
+Number of letters allowed to be guessed incorrectly: 3
+
+Number of letters guessed: 13
+Number of letters guessed incorrectly: 2
+You Won!
+
+
+
+
